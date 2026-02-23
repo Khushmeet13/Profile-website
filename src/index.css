@@ -1,1 +1,18 @@
 @import "tailwindcss";
+@import "@fortawesome/fontawesome-free/css/all.min.css";
+
+.logo-xs {
+  @apply absolute w-8 h-8 rounded-lg bg-white/5 border border-white/10 backdrop-blur-md;
+}
+
+.logo-sm {
+  @apply absolute w-12 h-12 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md;
+}
+
+.logo-md {
+  @apply absolute w-16 h-16 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md flex items-center justify-center;
+}
+
+.logo-lg {
+  @apply absolute w-20 h-20 rounded-xl bg-white/5 border border-white/10 backdrop-blur-md flex items-center justify-center;
+}
